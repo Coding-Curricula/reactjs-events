@@ -12,8 +12,8 @@ export default function GoodluckComponent() {
 
     const handleClick = () => {
         const randomPosition = {
-            top: Math.floor(Math.random() * window.innerHeight),
-            left: Math.floor(Math.random() * window.innerWidth)
+            top: Math.floor(Math.random() * 400),
+            left: Math.floor(Math.random() * 400)
         }
 
         setPosition(randomPosition)
